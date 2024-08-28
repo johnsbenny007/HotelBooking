@@ -1,0 +1,148 @@
+.Header{
+    background-color: #003580;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+}
+.HeaderContainer{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    max-width: 1024px;
+    margin-top: 10px;
+    position: relative;
+}
+.HeaderOptions{
+    display:flex;
+    color:white;
+    justify-content: space-between;
+    width:100%;
+    max-width:1024px;
+    align-items: center;
+
+}
+.OptionItem1{
+    display:flex;
+    gap:10px;
+    align-items: center;
+    padding:10px;
+    cursor: pointer;
+    justify-content: space-between;
+    border:1px solid white;
+    border-radius:20px;
+    background-color:#0071c2 ;
+}
+.OptionItemActive{
+    display:flex;
+    gap:10px;
+    align-items: center;
+    padding:10px;
+    cursor: pointer;
+    border-radius:20px;
+}
+.OptionItemActive:hover{
+    background-color:#0071c2;
+    transition: 0.5s;
+    border-radius:20px;
+    
+}
+
+.HeaderHeading{
+    color:white;
+    margin-top:50px;
+}
+.HeaderHeading h1 {
+    font-size: 45px;
+}
+.HeaderHeading h4 {
+    font-size:20px;
+}
+.HeaderSearch{
+    display:flex;
+    border: 5px solid #ffe03b;
+    border-radius: 5px;
+    padding:12px;
+    position: absolute;
+    bottom:-35px;
+    width:100%;
+    background-color: white;
+    justify-content: space-between;
+    max-width: 1024px;
+}
+.SearchText{
+    border:none;
+    outline:none;
+    font-size: 16px;
+    background: transparent;
+    color:gray;
+}
+.SearchIcon{
+    color:grey;
+}
+.SearchItem{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.SearchBtn{
+    background-color:#0071c2 ;
+    color:white;
+    border: none;
+    padding:10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.SearchBtn:hover{
+    background-color:#023071;
+    color:white;
+    transition: 0.3s;
+}
+.SearchCount {
+    color: gray;
+    cursor: pointer;
+}
+.SearchDate{
+    color:gray;
+    cursor: pointer;
+}
+.Datepicker{
+    position:absolute;
+    top:50px;
+    left :270px;
+    overflow: hidden;
+}
+.Options{
+    position: absolute;
+    top:50px;
+    background-color: white;
+    -webkit-box-shadow: -5px 9px 16px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 9px 16px -2px rgba(0,0,0,0.75);
+    box-shadow: -5px 9px 16px -2px rgba(0,0,0,0.75);
+    color:gray;
+    border-radius: 5px;
+    padding:10px;
+}
+.OptionItem{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width:200px;
+    height:45px;
+}
+.Optionbutton{
+    display: flex;
+    justify-content:space-between ;
+    gap:15px;
+    font-size:12px;
+    color:black;
+    align-items: center;
+}
+.Optionbutton button{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #0071c2;
+    background-color: white;
+    border-radius: 2px;
+}

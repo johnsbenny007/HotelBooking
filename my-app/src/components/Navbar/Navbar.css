@@ -1,0 +1,36 @@
+.Navbar {
+    background-color:#003580;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    color:white;
+}
+.NavbarContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1024px;
+    align-items: center;
+}
+.NavbarTitle{
+ color:aliceblue;
+ font-weight: 500;
+    
+}
+.NavbarRegister{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+}
+.Navbarbtn{
+    border:none;
+    margin-left: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color:#0071c2;
+    transition:0.3s;
+}
+.Navbarbtn:hover{
+    background-color: rgba(205, 203, 203, 0.925);
+    transition: 0.3s;
+}

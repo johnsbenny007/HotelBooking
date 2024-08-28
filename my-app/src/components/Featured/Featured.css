@@ -1,0 +1,28 @@
+.Featured{
+    width:100%;
+    max-width:1024px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+}
+.FeaturedItems{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    gap:15px;
+}
+.FeaturedItem{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:5px;
+}
+.FeaturedImg{
+    object-fit: contain;
+    border-radius:9px;
+}
+.FeaturedItem span{
+    font-size:13px;
+    font-family: 200;
+}

@@ -1,0 +1,40 @@
+.Footer{
+    display:flex;
+    justify-content: space-between;
+    height:400px;
+    flex-direction: column;
+    position:relative;
+}
+.FooterContainer{
+    margin-top:15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:70px;
+}
+.FooterList{
+    display: flex;
+    justify-content: space-between;
+    gap:70px;
+}
+.FooterList ul{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+li{
+    list-style-type:none;
+    color:#0071c2;
+    font-size:12px;
+    cursor: pointer;
+    font-weight: 480;
+}
+.copyright p{
+    font-size: 11px
+    
+}
+.copyright{
+    margin-left: 30px;
+    position:absolute;
+    bottom:0;
+}

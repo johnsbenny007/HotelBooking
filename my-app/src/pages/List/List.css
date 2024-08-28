@@ -1,0 +1,101 @@
+.ListItems{
+    display:flex;
+    justify-content: center;
+    margin-bottom:20px;
+}
+.ListContainer{
+    display:flex;
+    width:100%;
+    max-width: 1024px;
+    margin-top:20px;
+    gap:10px;
+    position:relative;
+}
+.ListSearch{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    background-color:#ffba03;
+    padding:10px;
+    position:sticky;
+    top:10px;
+    border-radius:10px;
+    gap:20px;
+    height:max-content;
+  
+}
+.ListResult{
+    flex:3;
+    
+}
+.SearchDestination{
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+.SearchDate{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+.SearchDate label{
+    color:black;
+    font-size:15px;
+}
+.ListOptions{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.ListOptionItem{
+    display:flex;
+    justify-content: space-between;
+    margin-left:10px;
+}
+.SearchDestination input{
+    width:270px;
+    height:40px;
+    outline:none;
+    font-size:18px;
+    border:none;
+}
+.Destination{
+    font-size:15px;
+}
+.ListOptionItem span{
+    color:rgb(91, 90, 90);
+    font-size:14px;
+}
+.ListOptions>span{
+    font-size:15px;
+}
+.ListOptionItem input{
+    width:55px;
+    height:20px;
+    border-radius:3px;
+    outline:none;
+    border:none;
+}
+.Searchbtn{
+    padding:10px;
+    background-color:#0071c2 ;
+    border-radius:5px;
+    border:none;
+    outline:none;
+    color:white;
+    cursor: pointer;
+}
+.Date{
+    background-color: white;
+    padding:10px;
+    font-size:18px;
+}
+.DatepickerSearch{
+    overflow:hidden;
+
+}
+.ListResult{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}

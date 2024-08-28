@@ -1,0 +1,110 @@
+.SearchItems{
+    display:flex;
+    justify-content:space-between;
+    gap:10px;
+    padding:10px;
+    border:1px solid gray;
+    border-radius:5px;
+    width:100%;
+    max-width: 1030px;
+}
+.PlaceDetails{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top:0px;
+}
+.PlaceRating{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.SearchImg{
+    margin-left:0;
+    cursor: pointer;
+}
+.SearchItems img{
+    height:220px;
+    width:220px;
+    object-fit:contain;
+}
+.PlaceDetails > span:nth-child(2){
+    font-size:14px;
+}
+.PlaceDetails h3{
+    color:#0071c2 ;
+    font-size: 20px;
+}
+.PlaceDetails > span:nth-child(3){
+    background-color: rgb(4, 145, 4);
+    padding:2px;
+    width:105px;
+    font-size:14px;
+    color:white;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+}
+.PlaceDetails > span:nth-child(4){
+    font-size: 13px;
+    font-weight: 600;
+}
+.PlaceDetails > span:nth-child(5){
+    font-size: 12px;
+    font-weight: 500;
+}
+.PlaceDetails > span:nth-child(6){
+    font-size:14px;
+    font-weight:650;
+    color:rgb(4, 145, 4);
+}
+.PlaceDetails > span:nth-child(7){
+    font-size: 13px;
+    color:rgb(4, 145, 4);
+}
+.SearchPrice{
+    display: flex;
+    flex-direction: column;
+    text-align: right;   
+    gap:5px;
+}
+.SearchPrice > span:nth-child(1){
+    font-size:27px;
+    font-weight: 600;
+}
+.SearchPrice > span:nth-child(2){
+    font-size:13.5px;
+    font-weight: 400;
+    color: darkgray;
+}
+.SearchPrice button{
+    color:white;
+    background-color: #0071c2;
+    padding:10px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+.Rating{
+    display:flex;
+    justify-content: space-between;
+    gap:45px;
+}
+.Rating > span:nth-child(1){
+    font-size: 17px;
+    font-weight: 700;
+    background-color: white;
+    color:black;
+}
+.Rating > span:nth-child(2){
+    border-radius: 5px;
+    background-color: #003B95;
+    width:24px;
+    min-width:24px;
+    height:24px;
+    font-size: 14px;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}

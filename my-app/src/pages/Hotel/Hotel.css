@@ -1,0 +1,182 @@
+.Hotel{
+    width:100%;
+    height:100%;
+}
+.HotelMain{
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
+    align-items:center;
+    flex-direction: column;
+}
+.HotelMainContainer{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    max-width: 1024px;
+    gap:10px;
+}
+.HotelContainer{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.ImageWrapper img{
+    width:400px;
+    height: 300px;
+    background-position: 50% 50%;
+    cursor: pointer;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform .5s ease;
+    background-color: rgba(0,0,0,0.4);
+    border: 10px;
+}
+.ImageWrapper img:hover{
+    transform: scale(1.05);
+    border-radius: 10px;
+}
+.ImageWrapper{
+    height:300px;
+    width:32.5%;
+    overflow:hidden;
+    border-radius: 10px;
+}
+.HotelImages{
+    display:flex;
+    flex-wrap: wrap;
+    gap:5px;
+    margin-top: 15px;
+}
+.Heading{
+    font-weight: 650;
+    font-size: 25px;
+}
+.Hotelheading{
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+.location{
+    display: flex;
+    gap:8px;
+    align-items: center;
+}
+.location span{
+    font-size: 14px;
+}
+.Hotelheading > span:nth-child(3){
+    font-size: 16px;
+    font-weight: 600;
+    color:#0071c2;
+}
+.Hotelheading >span:nth-child(4){
+    font-size:16px;
+    font-weight: 500;
+    color:rgb(4, 145, 4);
+}
+.HotelReserveBtn button{
+    background-color: #0071c2;
+    color:white;
+    padding:10px;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.HotelDetails{
+    margin-top:40px;
+    display:flex;
+    justify-content: space-between;
+    gap:10px;
+}
+.HotelDescription{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    flex:3
+
+}
+.HotelDescription p{
+    font-size:14px;
+    font-weight: 500;
+    
+}
+.HotelReserve{
+    background-color: #dceaf5;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    flex:1;
+    margin-top:10px;
+    border-radius:2px;
+}
+.HotelReserve h1{
+    font-size:18px;
+}
+.HotelReserve >span:nth-child(2){
+    font-size:13px;
+    font-weight: 500;
+}
+.HotelReserve > h1:nth-child(3){
+    font-size:25px;
+}
+.HotelReserve button{
+    background-color: #0071c2;
+    color:white;
+    padding:10px;
+    border:none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.Slider{
+    position:sticky;
+    top:0px;
+    left:0px;
+    color:black;
+    display:flex;
+    width:100vw;
+    height:100vh;
+    justify-content:space-between;
+    align-items:center;
+    position: sticky;
+    background-color:rgba(0,0,0,0.426);
+    z-index:999;
+
+}
+.SliderWrapper{
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconleft{
+    color:black;
+    font-size:50px;
+    cursor: pointer;
+    margin-left:20px;
+}
+.iconright{
+    color:black;
+    font-size: 50px;
+    cursor: pointer;
+    margin-right:20px;
+    
+}
+.cross{
+    font-size:50px;
+    top:10px;
+    right:10px;
+    position:absolute;
+    cursor: pointer;
+    color:white;
+}
+.SliderWrapper img{
+    width:60%;
+    height:80vh;
+}
